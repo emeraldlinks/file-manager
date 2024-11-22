@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+file_manager/__init__.py
+file_manager/manager.py
+file_manager/version.py
+file_manager.egg-info/PKG-INFO
+file_manager.egg-info/SOURCES.txt
+file_manager.egg-info/dependency_links.txt
+file_manager.egg-info/requires.txt
+file_manager.egg-info/top_level.txt
