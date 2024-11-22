@@ -36,7 +36,7 @@ file_manager = FileManager(app=app, base_path="uploads", route_path="/files")
 async def upload_file(file: UploadFile):
     # Save the file and get its URL
     file_url = file_manager.save_file(file)
-    return {"file_url": file_url, "check as": f"localhost:8000{file_url}"}
+    return {"file_url": file_url, "check as": f"localhost:8000/{file_url}"}
 
 
 @app.get("/download/{filename}")
